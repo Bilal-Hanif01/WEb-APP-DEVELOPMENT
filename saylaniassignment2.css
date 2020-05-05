@@ -1,0 +1,71 @@
+*{
+  box-sizing : border-box;
+}
+input[type=text],textarea{
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+select{
+width: 10%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color:white
+}
+.container {
+  border-radius: 5px;
+  background-color: #2926cc;
+  padding: 20px;
+}
+.col2 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col3 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+th{
+  width: 20%;
+ padding-right:130px;
+  resize: vertical;
+  color:white;
+}
+td{
+  width: 30%;
+Color :white;
+  resize: vertical;
+}
+
+
+.kill{ 
+  display: flex; justify-content: center; 
+  padding:4%;
+}
+h1{ 
+  display: flex; justify-content: center; 
+  padding:4%;
+}
+img{
+display: flex; justify-content: center; 
+padding-inline-end:4%;
+}
+  
